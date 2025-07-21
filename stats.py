@@ -14,3 +14,7 @@ def count_characters(text):
         else:
             dictionary_count[i] = 1
     return dictionary_count
+
+def sort_on(text):
+    return text["num"]
+
